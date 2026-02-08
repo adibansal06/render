@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Lead Intelligence Dashboard</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    h1 { color: #0b5394; }
+    .card {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>AI Lead Intelligence Dashboard</h1>
+<p><i>Serverless AI-powered lead analytics</i></p>
+
+<h3>Analytics</h3>
+<ul id="analytics"></ul>
+
+<h3>Leads</h3>
+<div id="leads"></div>
+
+<script>
+/*
+ In production:
+ fetch("https://your-serverless-endpoint/api/get_leads")
+*/
+
+fetch("../local_output.json")
+  .then(res => res.json())
+  .then(data => {
+    const analytics = document.getElementById("analytics");
+    analytics.innerHTML = `
+      <li>Total Leads: <b>${data.total_leads}</b></li>
+      <li>Average Score: <b>${data.average_score}</b></li>
+      <li>Source File: <b>${data.source_file}</b></li>
+    `;
+
+    const container = document.getElementById("leads");
+    data.leads.forEach(lead => {
+      const div = document.createElement("div");
+      div.className = "card";
+      div.innerHTML = `
+        <b>${lead.company || "Company"}</b><br>
+        Industry: ${lead.industry || "-"}<br>
+        Score: <b>${lead.score || "N/A"}</b>
+      `;
+      container.appendChild(div);
+    });
+  });
+</script>
+
+</body>
+</html>

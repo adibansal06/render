@@ -1,0 +1,30 @@
+from flask import Flask, jsonify, render_template
+import os, json
+
+app = Flask(__name__)
+
+OUTPUT_DIR = "output"
+
+def get_latest_output_file():
+    files = [f for f in os.listdir(OUTPUT_DIR) if f.endswith(".json")]
+    files.sort(reverse=True)
+    return os.path.join(OUTPUT_DIR, files[0])
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+@app.route("/leads")
+def get_leads():
+    latest_file = get_latest_output_file()
+    with open(latest_file) as f:
+        data = json.load(f)
+    return jsonify({
+        "source_file": os.path.basename(latest_file),
+        "count": len(data),
+        "leads": data
+    })
+
+if __name__ == "__main__":
+    app.run(debug=True)
+

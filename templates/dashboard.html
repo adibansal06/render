@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Lead Intelligence Dashboard</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    h1 { color: #0b5394; }
+    .card {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>AI Lead Intelligence Dashboard</h1>
+<p><i>Deployed on Render • Real AI-generated leads</i></p>
+
+<ul>
+  <li><b>Total Leads:</b> {{ total_leads }}</li>
+  <li><b>Average Score:</b> {{ average_score }}</li>
+  <li><b>Source File:</b> {{ source_file }}</li>
+</ul>
+
+<hr>
+
+{% for lead in leads %}
+  <div class="card">
+    <b>{{ lead.company or "Company" }}</b><br>
+    Industry: {{ lead.industry or "-" }}<br>
+    Score: <b>{{ lead.score or "N/A" }}</b>
+  </div>
+{% endfor %}
+
+</body>
+</html>

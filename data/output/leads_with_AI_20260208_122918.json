@@ -1,0 +1,634 @@
+[
+  {
+    "Source": "eProcure_CPPP",
+    "Title": "Supply of High Speed Diesel for NTPC Plant",
+    "Summary": "Tender for supply of 10,000 MT HSD for thermal power plant operations",
+    "Full_Reference": "NTPC invites bids for HSD supply",
+    "Company_Name": "NTPC Limited",
+    "Organization_Name": "NTPC",
+    "Location_Clues": "Jamshedpur; Jharkhand",
+    "e_Published_Date": "2026-02-07",
+    "Contact_Email": "tender@ntpc.co.in",
+    "URL": "https://eprocure.gov.in/tender/123",
+    "Source_Trust": 95,
+    "AI_Product_Recommendations": [
+      {
+        "product_code": "HSD",
+        "product_name": "High-Speed Diesel",
+        "confidence": 0.8,
+        "reason_codes": [
+          "Matched: hsd supply",
+          "Product keyword: high speed diesel, hsd",
+          "Quantity: 10,000 MT",
+          "Urgency: tender, bid"
+        ],
+        "evidence": {
+          "strong_indicators": 1,
+          "keywords": 3,
+          "operational_cues": 0,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "LOW"
+      },
+      {
+        "product_code": "FO",
+        "product_name": "Furnace Oil",
+        "confidence": 0.6,
+        "reason_codes": [
+          "Operational cue: thermal power",
+          "Product keyword: fo",
+          "Quantity: 10,000 MT",
+          "Urgency: tender, bid"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 1,
+          "operational_cues": 1,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "MEDIUM"
+      },
+      {
+        "product_code": "MS",
+        "product_name": "Motor Spirit (Petrol)",
+        "confidence": 0.1,
+        "reason_codes": [
+          "Quantity: 10,000 MT",
+          "Urgency: tender, bid"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 0,
+          "operational_cues": 0,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "HIGH"
+      }
+    ],
+    "AI_Lead_Score": {
+      "total_score": 84,
+      "breakdown": {
+        "intent": {
+          "score": 40,
+          "type": "tender",
+          "evidence": "tender, bid"
+        },
+        "freshness": {
+          "score": 20,
+          "days_old": 1,
+          "level": "VERY_FRESH"
+        },
+        "company_size": {
+          "score": 20,
+          "category": "LARGE",
+          "evidence": "Known large company: NTPC Limited"
+        },
+        "proximity": {
+          "score": 4,
+          "nearest_depot": "Delhi",
+          "distance": "FAR"
+        }
+      },
+      "priority": "CRITICAL"
+    },
+    "AI_Routing": {
+      "assigned_officer": "Amit Verma",
+      "email": "amit.verma@hpcl.co.in",
+      "phone": "+91-9876543212",
+      "depot": "Delhi",
+      "region": "North",
+      "match_reason": "Geographic assignment"
+    },
+    "AI_Company_Profile": {
+      "entity_id": "ENT_000003",
+      "canonical_name": "NTPC Limited",
+      "aliases": [
+        "NTPC Limited",
+        "ntpc"
+      ],
+      "identifiers": {
+        "cin": null,
+        "gstin": [],
+        "website": null
+      },
+      "industry": null,
+      "key_products": [],
+      "geography": {
+        "headquarters": "Jamshedpur",
+        "plants": [],
+        "regions": []
+      },
+      "contacts": {
+        "public_email": null,
+        "public_phone": null,
+        "investor_relations": null
+      },
+      "data_quality": {
+        "completeness": 0.3333333333333333,
+        "last_updated": "2026-02-07T21:00:00Z",
+        "sources_count": 1
+      }
+    },
+    "AI_Processed_At": "2026-02-08T12:29:18.192847",
+    "AI_Pipeline_Version": "1.0"
+  },
+  {
+    "Source": "GeM",
+    "Title": "Tender for Bitumen VG-30 for NH-44 Highway Project",
+    "Summary": "Supply of 15,000 MT Bitumen for road construction",
+    "Full_Reference": "NHAI requires Bitumen VG-30 for highway project",
+    "Company_Name": "NHAI",
+    "Organization_Name": "National Highways Authority",
+    "Location_Clues": "Vadodara; Gujarat",
+    "e_Published_Date": "2026-02-07",
+    "Contact_Email": "tenders@nhai.gov.in",
+    "URL": "https://gem.gov.in/tender/456",
+    "Source_Trust": 100,
+    "AI_Product_Recommendations": [
+      {
+        "product_code": "BITUMEN",
+        "product_name": "Bitumen",
+        "confidence": 0.6,
+        "reason_codes": [
+          "Operational cue: road construction, highway project",
+          "Product keyword: bitumen",
+          "Quantity: 15,000 MT",
+          "Urgency: tender"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 1,
+          "operational_cues": 2,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "MEDIUM"
+      },
+      {
+        "product_code": "FO",
+        "product_name": "Furnace Oil",
+        "confidence": 0.4,
+        "reason_codes": [
+          "Product keyword: fo",
+          "Quantity: 15,000 MT",
+          "Urgency: tender"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 1,
+          "operational_cues": 0,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "HIGH"
+      },
+      {
+        "product_code": "MS",
+        "product_name": "Motor Spirit (Petrol)",
+        "confidence": 0.1,
+        "reason_codes": [
+          "Quantity: 15,000 MT",
+          "Urgency: tender"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 0,
+          "operational_cues": 0,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "HIGH"
+      }
+    ],
+    "AI_Lead_Score": {
+      "total_score": 82,
+      "breakdown": {
+        "intent": {
+          "score": 40,
+          "type": "tender",
+          "evidence": "tender"
+        },
+        "freshness": {
+          "score": 20,
+          "days_old": 1,
+          "level": "VERY_FRESH"
+        },
+        "company_size": {
+          "score": 18,
+          "category": "LARGE",
+          "evidence": "Capacity: 15000 MT"
+        },
+        "proximity": {
+          "score": 4,
+          "nearest_depot": "Delhi",
+          "distance": "FAR"
+        }
+      },
+      "priority": "CRITICAL"
+    },
+    "AI_Routing": {
+      "assigned_officer": "Amit Verma",
+      "email": "amit.verma@hpcl.co.in",
+      "phone": "+91-9876543212",
+      "depot": "Delhi",
+      "region": "North",
+      "match_reason": "Geographic assignment"
+    },
+    "AI_Company_Profile": {
+      "entity_id": "ENT_000002",
+      "canonical_name": "NHAI",
+      "aliases": [
+        "NHAI",
+        "nhai"
+      ],
+      "identifiers": {
+        "cin": null,
+        "gstin": [],
+        "website": null
+      },
+      "industry": "Construction",
+      "key_products": [],
+      "geography": {
+        "headquarters": "Vadodara, Gujarat",
+        "plants": [],
+        "regions": []
+      },
+      "contacts": {
+        "public_email": null,
+        "public_phone": null,
+        "investor_relations": null
+      },
+      "data_quality": {
+        "completeness": 0.5,
+        "last_updated": "2026-02-07T21:00:00Z",
+        "sources_count": 1
+      }
+    },
+    "AI_Processed_At": "2026-02-08T12:29:18.195245",
+    "AI_Pipeline_Version": "1.0"
+  },
+  {
+    "Source": "GoogleNews",
+    "Title": "Tata Steel announces ₹5,000 crore expansion",
+    "Summary": "New blast furnace to add 2 MTPA capacity",
+    "Full_Reference": "Tata Steel expansion with new blast furnace",
+    "Company_Name": "Tata Steel Limited",
+    "Organization_Name": "Tata Steel",
+    "Location_Clues": "Jamshedpur; Jharkhand",
+    "Post_Date": "2026-02-06",
+    "URL": "https://economictimes.com/article/12345",
+    "Source_Trust": 95,
+    "AI_Product_Recommendations": [
+      {
+        "product_code": "FO",
+        "product_name": "Furnace Oil",
+        "confidence": 0.3,
+        "reason_codes": [
+          "Operational cue: furnace",
+          "Quantity: 2 MT"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 0,
+          "operational_cues": 1,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "HIGH"
+      },
+      {
+        "product_code": "MS",
+        "product_name": "Motor Spirit (Petrol)",
+        "confidence": 0.1,
+        "reason_codes": [
+          "Quantity: 2 MT"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 0,
+          "operational_cues": 0,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "HIGH"
+      },
+      {
+        "product_code": "HSD",
+        "product_name": "High-Speed Diesel",
+        "confidence": 0.1,
+        "reason_codes": [
+          "Quantity: 2 MT"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 0,
+          "operational_cues": 0,
+          "quantity_mentioned": true
+        },
+        "uncertainty_flag": "HIGH"
+      }
+    ],
+    "AI_Lead_Score": {
+      "total_score": 59,
+      "breakdown": {
+        "intent": {
+          "score": 20,
+          "type": "expansion",
+          "evidence": "expansion"
+        },
+        "freshness": {
+          "score": 15,
+          "days_old": 2,
+          "level": "FRESH"
+        },
+        "company_size": {
+          "score": 20,
+          "category": "LARGE",
+          "evidence": "Known large company: Tata Steel Limited"
+        },
+        "proximity": {
+          "score": 4,
+          "nearest_depot": "Delhi",
+          "distance": "FAR"
+        }
+      },
+      "priority": "HIGH"
+    },
+    "AI_Routing": {
+      "assigned_officer": "Amit Verma",
+      "email": "amit.verma@hpcl.co.in",
+      "phone": "+91-9876543212",
+      "depot": "Delhi",
+      "region": "North",
+      "match_reason": "Geographic assignment"
+    },
+    "AI_Company_Profile": {
+      "entity_id": "ENT_000001",
+      "canonical_name": "Tata Steel Limited",
+      "aliases": [
+        "Tata Steel Limited",
+        "tata steel",
+        "ts"
+      ],
+      "identifiers": {
+        "cin": null,
+        "gstin": [],
+        "website": null
+      },
+      "industry": "Steel",
+      "key_products": [],
+      "geography": {
+        "headquarters": "Jamshedpur, Jharkhand",
+        "plants": [],
+        "regions": []
+      },
+      "contacts": {
+        "public_email": null,
+        "public_phone": null,
+        "investor_relations": null
+      },
+      "data_quality": {
+        "completeness": 0.5,
+        "last_updated": "2026-02-07T21:00:00Z",
+        "sources_count": 1
+      }
+    },
+    "AI_Processed_At": "2026-02-08T12:29:18.196759",
+    "AI_Pipeline_Version": "1.0"
+  },
+  {
+    "Source": "eProcure_MMP",
+    "Title": "Jute Batch Oil requirement for Bengal Jute Mills",
+    "Summary": "Supply of JBO for jute processing",
+    "Full_Reference": "Bengal Jute Mills expanding batching unit",
+    "Company_Name": "Bengal Jute Mills",
+    "Organization_Name": "Bengal Jute",
+    "Location_Clues": "Kolkata; West Bengal",
+    "e_Published_Date": "2026-01-31",
+    "URL": "https://mmp.gov.in/tender/789",
+    "Source_Trust": 90,
+    "AI_Product_Recommendations": [
+      {
+        "product_code": "JBO",
+        "product_name": "Jute Batch Oil",
+        "confidence": 0.9,
+        "reason_codes": [
+          "Matched: jute batch oil",
+          "Operational cue: jute mill, jute processing",
+          "Product keyword: jute batch oil, jbo"
+        ],
+        "evidence": {
+          "strong_indicators": 1,
+          "keywords": 2,
+          "operational_cues": 3,
+          "quantity_mentioned": false
+        },
+        "uncertainty_flag": "LOW"
+      },
+      {
+        "product_code": "FO",
+        "product_name": "Furnace Oil",
+        "confidence": 0.3,
+        "reason_codes": [
+          "Product keyword: fo"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 1,
+          "operational_cues": 0,
+          "quantity_mentioned": false
+        },
+        "uncertainty_flag": "HIGH"
+      }
+    ],
+    "AI_Lead_Score": {
+      "total_score": 58,
+      "breakdown": {
+        "intent": {
+          "score": 30,
+          "type": "procurement",
+          "evidence": "requirement"
+        },
+        "freshness": {
+          "score": 10,
+          "days_old": 8,
+          "level": "RECENT"
+        },
+        "company_size": {
+          "score": 8,
+          "category": "UNKNOWN",
+          "evidence": "No size indicators found"
+        },
+        "proximity": {
+          "score": 10,
+          "nearest_depot": "Kolkata",
+          "distance": "DEPOT_CITY"
+        }
+      },
+      "priority": "HIGH"
+    },
+    "AI_Routing": {
+      "assigned_officer": "Amit Das",
+      "email": "amit.das@hpcl.co.in",
+      "phone": "+91-9876543213",
+      "depot": "Kolkata",
+      "region": "East",
+      "match_reason": "Geographic assignment"
+    },
+    "AI_Company_Profile": {
+      "entity_id": "ENT_000004",
+      "canonical_name": "Bengal Jute Mills",
+      "aliases": [
+        "Bengal Jute Mills",
+        "bengal jute mills",
+        "bjm"
+      ],
+      "identifiers": {
+        "cin": null,
+        "gstin": [],
+        "website": null
+      },
+      "industry": null,
+      "key_products": [],
+      "geography": {
+        "headquarters": "Kolkata",
+        "plants": [],
+        "regions": []
+      },
+      "contacts": {
+        "public_email": null,
+        "public_phone": null,
+        "investor_relations": null
+      },
+      "data_quality": {
+        "completeness": 0.3333333333333333,
+        "last_updated": "2026-02-07T21:00:00Z",
+        "sources_count": 1
+      }
+    },
+    "AI_Processed_At": "2026-02-08T12:29:18.198230",
+    "AI_Pipeline_Version": "1.0"
+  },
+  {
+    "Source": "TenderDetail",
+    "Title": "Marine Bunker Fuel for Shipping Corporation",
+    "Summary": "Supply of LSHS and HSD for vessels",
+    "Full_Reference": "Shipping Corporation requires marine bunker fuel",
+    "Company_Name": "Shipping Corporation of India",
+    "Organization_Name": "SCI",
+    "Location_Clues": "Mumbai; Maharashtra",
+    "e_Published_Date": "2026-02-05",
+    "URL": "https://tenderdetail.com/tender/999",
+    "Source_Trust": 85,
+    "AI_Product_Recommendations": [
+      {
+        "product_code": "MARINE_BUNKERS",
+        "product_name": "Marine Bunker Fuels",
+        "confidence": 0.7,
+        "reason_codes": [
+          "Matched: bunker fuel",
+          "Product keyword: marine bunker, bunker fuel"
+        ],
+        "evidence": {
+          "strong_indicators": 1,
+          "keywords": 2,
+          "operational_cues": 0,
+          "quantity_mentioned": false
+        },
+        "uncertainty_flag": "LOW"
+      },
+      {
+        "product_code": "HSD",
+        "product_name": "High-Speed Diesel",
+        "confidence": 0.3,
+        "reason_codes": [
+          "Product keyword: hsd"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 1,
+          "operational_cues": 0,
+          "quantity_mentioned": false
+        },
+        "uncertainty_flag": "HIGH"
+      },
+      {
+        "product_code": "FO",
+        "product_name": "Furnace Oil",
+        "confidence": 0.3,
+        "reason_codes": [
+          "Product keyword: fo"
+        ],
+        "evidence": {
+          "strong_indicators": 0,
+          "keywords": 1,
+          "operational_cues": 0,
+          "quantity_mentioned": false
+        },
+        "uncertainty_flag": "HIGH"
+      }
+    ],
+    "AI_Lead_Score": {
+      "total_score": 33,
+      "breakdown": {
+        "intent": {
+          "score": 0,
+          "type": "vague",
+          "evidence": "No strong intent signals"
+        },
+        "freshness": {
+          "score": 15,
+          "days_old": 3,
+          "level": "FRESH"
+        },
+        "company_size": {
+          "score": 8,
+          "category": "UNKNOWN",
+          "evidence": "No size indicators found"
+        },
+        "proximity": {
+          "score": 10,
+          "nearest_depot": "Mumbai",
+          "distance": "DEPOT_CITY"
+        }
+      },
+      "priority": "MEDIUM"
+    },
+    "AI_Routing": {
+      "assigned_officer": "Rajesh Kumar",
+      "email": "rajesh.kumar@hpcl.co.in",
+      "phone": "+91-9876543210",
+      "depot": "Mumbai",
+      "region": "West",
+      "match_reason": "Geographic assignment"
+    },
+    "AI_Company_Profile": {
+      "entity_id": "ENT_000005",
+      "canonical_name": "Shipping Corporation of India",
+      "aliases": [
+        "Shipping Corporation of India",
+        "shipping of india",
+        "soi"
+      ],
+      "identifiers": {
+        "cin": null,
+        "gstin": [],
+        "website": null
+      },
+      "industry": null,
+      "key_products": [],
+      "geography": {
+        "headquarters": "Mumbai",
+        "plants": [],
+        "regions": []
+      },
+      "contacts": {
+        "public_email": null,
+        "public_phone": null,
+        "investor_relations": null
+      },
+      "data_quality": {
+        "completeness": 0.3333333333333333,
+        "last_updated": "2026-02-07T21:00:00Z",
+        "sources_count": 1
+      }
+    },
+    "AI_Processed_At": "2026-02-08T12:29:18.199901",
+    "AI_Pipeline_Version": "1.0"
+  }
+]
